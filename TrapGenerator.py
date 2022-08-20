@@ -7,7 +7,7 @@ iterIndex = len(TrapList)
 # %%
 
 #%%
-#This just takes the first entry in the latin square and moves it to the next positon in the list, and shifts the rests of the entries to the right and takes the last entry and places it in the first spot. I loop though the user defined size of each transect. 
+#This just takes the first entry in the latin square and moves it to the next positon in the list, and shifts the rests of the entries to the right and takes the last entry and places it in the first spot. I loop though the user defined size of each transect I use this method in the logic below. 
 for i in TrapList:
     TrapList[1] , TrapList[2], TrapList[3], TrapList[4], TrapList[0] =  TrapList[0], TrapList[1] , TrapList[2], TrapList[3], TrapList[4]
     print(TrapList)
