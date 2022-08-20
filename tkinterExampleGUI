@@ -1,0 +1,14 @@
+#%%
+from tkinter import *
+
+base = Tk()
+
+base.title("                                                                    NZI Latin Square Generator")
+base.geometry("600x400")
+label1 = Label(base, text="Prototype window for LS generator")
+label2 = Label(base, text = "Adam Bowman")
+
+label1.grid(row=0, column=0)
+label2.grid(row=1, column=0)
+
+base.mainloop()
