@@ -4,7 +4,6 @@ TrapList = input("Enter the code for any number of traps seperated by a space: "
 TrapList = TrapList.split()
 print(TrapList)
 iterIndex = len(TrapList)
-# %%
 
 #%%
 
